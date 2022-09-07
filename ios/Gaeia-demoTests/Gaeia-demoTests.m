@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface fltestTests : XCTestCase
+@interface Gaeia-demoTests : XCTestCase
 
 @end
 
-@implementation fltestTests
+@implementation Gaeia-demoTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {

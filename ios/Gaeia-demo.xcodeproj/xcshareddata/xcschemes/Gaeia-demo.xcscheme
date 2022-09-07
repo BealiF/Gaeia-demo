@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "fltest.app"
-               BlueprintName = "fltest"
-               ReferencedContainer = "container:fltest.xcodeproj">
+               BuildableName = "Gaeia-demo.app"
+               BlueprintName = "Gaeia-demo"
+               ReferencedContainer = "container:Gaeia-demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "fltestTests.xctest"
-               BlueprintName = "fltestTests"
-               ReferencedContainer = "container:fltest.xcodeproj">
+               BuildableName = "Gaeia-demoTests.xctest"
+               BlueprintName = "Gaeia-demoTests"
+               ReferencedContainer = "container:Gaeia-demo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "fltest.app"
-            BlueprintName = "fltest"
-            ReferencedContainer = "container:fltest.xcodeproj">
+            BuildableName = "Gaeia-demo.app"
+            BlueprintName = "Gaeia-demo"
+            ReferencedContainer = "container:Gaeia-demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "fltest.app"
-            BlueprintName = "fltest"
-            ReferencedContainer = "container:fltest.xcodeproj">
+            BuildableName = "Gaeia-demo.app"
+            BlueprintName = "Gaeia-demo"
+            ReferencedContainer = "container:Gaeia-demo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

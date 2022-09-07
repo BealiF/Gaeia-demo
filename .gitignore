@@ -41,6 +41,7 @@ yarn-error.log
 buck-out/
 \.buckd/
 *.keystore
+*.jks
 !debug.keystore
 
 # fastlane
@@ -64,4 +65,7 @@ buck-out/
 
 # fastlane
 android/google-cloud-api-key.json
+android/key.properties
+
+# ENV
 .env

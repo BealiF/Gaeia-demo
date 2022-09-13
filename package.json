@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "IncrementBuildNumber": "cd ios && fastlane IncrementBuildNumber && cd ../android && fastlane IncrementBuildNumber"
   },
   "dependencies": {
     "react": "18.0.0",

@@ -17,9 +17,9 @@ default_platform(:ios)
 
 platform :ios do
   desc "Push a new beta build to TestFlight"
-  lane :beta do
+  lane :beta do |options|
     increment_build_number(xcodeproj: "Gaeia-demo.xcodeproj")
     build_app(workspace: "Gaeia-demo.xcworkspace", scheme: "Gaeia-demo")
-    upload_to_testflight
+    upload_to_testflight(api_key_path: "fastlane/appleApiKey.json")
   end
 end

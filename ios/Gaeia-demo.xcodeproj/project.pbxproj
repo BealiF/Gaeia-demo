@@ -43,6 +43,7 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-Gaeia-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Gaeia-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "Gaeia-demo/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Gaeia-demo-Gaeia-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gaeia-demo-Gaeia-demoTests.release.xcconfig"; path = "Target Support Files/Pods-Gaeia-demo-Gaeia-demoTests/Pods-Gaeia-demo-Gaeia-demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C903386628D06E12004D968A /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -116,6 +117,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				C903386628D06E12004D968A /* Config.xcconfig */,
 				13B07FAE1A68108700A75B9A /* Gaeia-demo */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* Gaeia-demoTests */,
@@ -204,6 +206,7 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
+						ProvisioningStyle = Manual;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
@@ -433,6 +436,8 @@
 			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-Gaeia-demo-Gaeia-demoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = YG4ZMNFZWJ;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -460,7 +465,9 @@
 			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-Gaeia-demo-Gaeia-demoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = YG4ZMNFZWJ;
 				INFOPLIST_FILE = "Gaeia-demoTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -485,7 +492,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = YG4ZMNFZWJ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Gaeia-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -500,6 +510,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gaeia.test.fastlane;
 				PRODUCT_NAME = "Gaeia-demo";
+				PROVISIONING_PROFILE_SPECIFIER = "Gaeia demo Gael provisioning profile";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -512,7 +523,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = YG4ZMNFZWJ;
 				INFOPLIST_FILE = "Gaeia-demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -526,6 +540,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gaeia.test.fastlane;
 				PRODUCT_NAME = "Gaeia-demo";
+				PROVISIONING_PROFILE_SPECIFIER = "Gaeia demo Gael provisioning profile";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

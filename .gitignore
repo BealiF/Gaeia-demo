@@ -72,6 +72,7 @@ appleApiKey.json
 *.jks
 *.p8
 *.p12
+**/Gemfile.lock
 
 # ENV
 .env

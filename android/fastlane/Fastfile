@@ -43,6 +43,23 @@ platform :android do
 
   end
 
+  desc "Set version name"
+  lane :SetVersiondNameToMatchPackageJson do |options|
+
+    if options[:version_name]
+      # extract options to a variable
+      version_name = options[:version_name]
+      path = '../app/build.gradle'
+      re = /versionName\s+("\d+.\d+.\d+")/
+      s = File.read(path)
+      s[re, 1] = "\"#{version_name}\""
+      f = File.new(path, 'w')
+      f.write(s)
+      f.close
+    end
+
+  end
+
   desc "Runs all the tests"
   lane :test do
     gradle(task: "test")

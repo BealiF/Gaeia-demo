@@ -23,6 +23,14 @@ For _fastlane_ installation instructions, see [Installing _fastlane_](https://do
 
 Auto increment build number
 
+### android SetVersiondNameToMatchPackageJson
+
+```sh
+[bundle exec] fastlane android SetVersiondNameToMatchPackageJson
+```
+
+Set version name
+
 ### android test
 
 ```sh

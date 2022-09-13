@@ -29,7 +29,7 @@ Auto Increment BuildNumber
 [bundle exec] fastlane ios SetVersiondNameToMatchPackageJson
 ```
 
-Set or Increment version number
+Set version number
 
 ### ios beta
 

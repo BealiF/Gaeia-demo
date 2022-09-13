@@ -31,14 +31,6 @@ Auto increment build number
 
 Set version name
 
-### android test
-
-```sh
-[bundle exec] fastlane android test
-```
-
-Runs all the tests
-
 ### android internal
 
 ```sh
